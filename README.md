@@ -1,0 +1,1 @@
+Following tutorial from https://scotch.io/tutorials/build-a-mini-netflix-with-react-in-10-minutes
