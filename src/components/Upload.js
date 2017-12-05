@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import Nav from './Nav';
 
 class Upload extends Component {
@@ -7,7 +7,7 @@ class Upload extends Component {
       uploadWidget = () => {
         window.cloudinary.openUploadWidget(
           { cloud_name: 'cloudoom',
-            upload_preset: '<unsigned-preset>',
+            upload_preset: 'dihn2fsf',
             tags: ['miniflix'],
             sources: ['local', 'url', 'google_photos', 'facebook', 'image_search']
           },
